@@ -1,0 +1,6 @@
+moviepy==2.0.0.dev1
+python-dotenv==1.0.0
+requests==2.28.2
+selenium==4.8.3
+elevenlabs==0.2.16
+webdriver-manager==3.8.5
