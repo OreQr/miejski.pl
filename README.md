@@ -7,7 +7,7 @@ Kod źródłowy bota, który codziennie wrzuca filmy na kanał [@slangmiejski](h
 
 python main.py --music
 ```
-https://github.com/OreQr/miejski.pl/assets/50458706/376928f8-7041-444d-818d-0dd1b281d8cb
+https://github.com/OreQr/miejski.pl/assets/50458706/f76d53df-7c96-451c-804c-d72b320ae4d8
 
 ## Licencja
 
