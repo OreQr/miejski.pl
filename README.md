@@ -1,4 +1,4 @@
-# miejski.pl  🐀
+# miejski.pl 🐀
 Kod źródłowy bota, który codziennie wrzuca filmy na kanał [@slangmiejski](https://www.tiktok.com/@slangmiejski).
 
 ## Przykładowe działanie
