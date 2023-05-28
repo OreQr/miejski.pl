@@ -8,12 +8,10 @@ from elevenlabs import generate, save, set_api_key
 from moviepy.editor import *
 import argparse
 import random
-from Tiktok_uploader import uploadVideo
 
 load_dotenv()
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--upload", action="store_true")
 parser.add_argument("--music", action="store_true")
 args = parser.parse_args()
 
@@ -81,14 +79,3 @@ final_clip.write_videofile(
     "video.mp4",
     fps=24,
 )
-
-# Upload video
-if args.upload:
-    print("Przesyłanie filmu")
-
-    session_id = os.getenv("TIKTOK")
-    file = "video.mp4"
-    title = title
-    tags = []
-
-    uploadVideo(session_id, file, title, tags, verbose=True)
