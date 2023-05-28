@@ -7,7 +7,7 @@ Kod źródłowy bota, który tworzy filmy na kanał [@slangmiejski](https://www.
 
 python main.py --music
 ```
-https://raw.githubusercontent.com/OreQr/miejski.pl/main/video.mp4
+https://github.com/OreQr/miejski.pl/assets/50458706/f76d53df-7c96-451c-804c-d72b320ae4d8
 
 ## Licencja
 
