@@ -12,6 +12,7 @@ import random
 load_dotenv()
 
 parser = argparse.ArgumentParser()
+parser.add_argument("--word", type=str)
 parser.add_argument("--music", action="store_true")
 args = parser.parse_args()
 
@@ -32,7 +33,10 @@ options.add_experimental_option("mobileEmulation", mobile_emulation)
 
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 
-driver.get("https://www.miejski.pl/losuj")
+if (args.word):
+    driver.get("https://www.miejski.pl/slowo-" + args.word.replace(" ", "+"))
+else:
+    driver.get("https://www.miejski.pl/losuj")
 
 article = driver.find_element(By.TAG_NAME, "article")
 title = article.find_element(By.TAG_NAME, "header").text
